@@ -14,7 +14,7 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@token-data/*": ["packages/*/src"]
+      "@lib-ts/*": ["packages/*/src"]
     }
   },
   "files": [],
