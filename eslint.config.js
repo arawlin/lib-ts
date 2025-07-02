@@ -71,6 +71,7 @@ export default tseslint.config(
       'max-len': [
         'warn',
         {
+          code: 150,
           ignoreUrls: true,
           ignoreStrings: true,
           ignoreTemplateLiterals: true,
@@ -95,5 +96,5 @@ export default tseslint.config(
       'no-throw-literal': 'error',
       'prefer-promise-reject-errors': 'error',
     },
-  }
+  },
 )
