@@ -134,10 +134,3 @@ export enum LogLevel {
   DEBUG = 'debug',
   TRACE = 'trace',
 }
-
-export default {
-  createLogger,
-  createChildLogger,
-  logger,
-  LogLevel,
-}
