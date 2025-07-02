@@ -4,8 +4,11 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {},
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "pino": "^9.7.0",
+    "pino-pretty": "^13.0.0",
+    "rotating-file-stream": "^3.2.6"
+  },
   "files": [
     "dist/**/*"
   ]
